@@ -1,0 +1,149 @@
+.realia-message {
+	border-color: #2caabd;
+    padding: 24px 12px;
+}
+
+.realia-message p {
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+}
+
+.realia-message .submit {
+    margin: 0px;
+}
+
+.realia-message .button-primary {
+	background-color: #2caabd;
+	border-color: #2c9bac;
+}
+
+.realia-message .button-primary:hover {
+	background-color: #259bad;
+	border-color: #2c9bac;
+}
+
+#setting-error-tgmpa {
+    display: block;
+}
+
+.subtitle {
+	color: rgba(0, 0, 0, .7);
+	font-style: italic;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.toplevel_page_realia .wp-menu-image:before {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	content: '\e600';
+	font-family: 'Realia';
+	font-size: 17px;
+}
+
+#menu-posts-property .wp-menu-image:before {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	content: '\e601';
+	font-family: 'Realia';
+	font-size: 16px;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.center {
+	text-align: center !important;
+}
+
+.warning {
+	border-color: #FFF200;
+}
+
+.attachment-thumbnail-small {
+	height: 55px;
+	width: 55px;
+}
+
+.one-half {
+	box-sizing: border-box;
+	float: left;
+	padding: 0px 15px;
+	width: 50%;
+}
+
+.row {
+	margin: 0px -15px;
+}
+
+.min-width {
+	width: 1px;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.center {
+	text-align: center;
+}
+
+.realia-filter-rent-sale-fields li,
+.realia-filter-fields li {
+	background: #fafafa;
+	border: 1px solid #dfdfdf;
+	cursor: move;
+}
+
+.realia-filter-rent-sale-fields li.invisible,
+.realia-filter-fields li.invisible {
+	opacity: .4;
+}
+
+.realia-filter-rent-sale-fields li p,
+.realia-filter-fields li p {
+	font-size: 12px;
+	margin: 7px 15px;
+}
+
+.realia-filter-rent-sale-fields li i,
+.realia-filter-fields li i {
+	font-size: 10px;
+	margin: 0px 5px 0px 0px;
+}
+
+.realia-filter-rent-sale-fields li .visibility,
+.realia-filter-fields li .visibility {
+	cursor: pointer;
+	float: right;
+	position: relative;
+}
+
+.realia-filter-rent-sale-fields li .visibility i,
+.realia-filter-fields li .visibility i {
+	cursor: pointer;
+	font-size: 15px;
+	left: 0px;
+	position: absolute;
+	pointer-events: none;
+	top: 2px;
+}
+
+.realia-filter-rent-sale-fields li .visibility .field-visibility,
+.realia-filter-fields li .visibility .field-visibility {
+	background-color: transparent !important;
+	border: 0px !important;
+	box-shadow: none !important;
+}
+
+.realia-filter-rent-sale-fields li .visibility .field-visibility:before,
+.realia-filter-fields li .visibility .field-visibility:before {
+	display: none;
+}

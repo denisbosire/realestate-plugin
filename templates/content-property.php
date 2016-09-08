@@ -192,7 +192,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	                            </div><!-- /.property-public-facility-title -->
 
 	                            <div class="property-public-facility-info">
-	                                <?php echo esc_attr( $facility[ REALIA_PROPERTY_PREFIX . 'public_facilities_value' ] ); ?>
 	                            </div><!-- /.property-public-facility-info -->
 	                        </div><!-- /.property-public-facility -->
 	                    </div><!-- /.property-public-facility-wrapper -->

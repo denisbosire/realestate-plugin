@@ -179,25 +179,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	    
 
-	        <!-- PUBLIC FACILITIES -->
-	        <?php $facilities = get_post_meta( get_the_ID(), REALIA_PROPERTY_PREFIX . 'public_facilities_group', true ); ?>
 
-	        <?php if ( ! empty( $facilities ) && is_array( $facilities ) ) : ?>
-	            <div class="property-public-facilities">
-	                <?php foreach ( $facilities as $facility ) : ?>
-	                    <div class="property-public-facility-wrapper">
-	                        <div class="property-public-facility">
-	                            <div class="property-public-facility-title">
-	                                <span><?php echo esc_attr( $facility[ REALIA_PROPERTY_PREFIX . 'public_facilities_key' ] ); ?></span>
-	                            </div><!-- /.property-public-facility-title -->
-
-	                            <div class="property-public-facility-info">
-	                            </div><!-- /.property-public-facility-info -->
-	                        </div><!-- /.property-public-facility -->
-	                    </div><!-- /.property-public-facility-wrapper -->
-	                <?php endforeach; ?>
-	            </div><!-- /.property-public-facilities -->
-	        <?php endif; ?>
 
 	        <!-- MAP LOCATION -->
 	        <?php $map_location = get_post_meta( get_the_ID(), REALIA_PROPERTY_PREFIX . 'map_location', true ); ?>

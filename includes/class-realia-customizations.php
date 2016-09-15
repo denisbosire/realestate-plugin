@@ -29,23 +29,14 @@ class Realia_Customizations {
 	 * @return void
 	 */
 	public static function includes() {
-<<<<<<< HEAD
+
 		//require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-currency.php';
 		//require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-general.php';
 		require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-measurement.php';
 		//require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-recaptcha.php';
 		//require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-submission.php';
 		//require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-wire-transfer.php';
-=======
-		
-		require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-measurement.php';
-		/*require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-currency.php';
-		require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-general.php';
-		require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-recaptcha.php';
-		require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-submission.php';
-		require_once REALIA_DIR . 'includes/customizations/class-realia-customizations-wire-transfer.php';
-		*/
->>>>>>> origin/master
+
 	}
 }
 

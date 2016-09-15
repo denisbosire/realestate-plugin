@@ -31,11 +31,11 @@ class Realia_Scripts {
 	 * @return void
 	 */
 	public static function enqueue_frontend() {
-<<<<<<< HEAD
+
 		wp_enqueue_script( 'google-maps', 'https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyD3OwYu6wRQx7IbGSS84dShb5bvlIplxJY' );
-=======
+
 		wp_enqueue_script( 'google-maps', '//maps.googleapis.com/maps/api/js?key=AIzaSyC2MI1g_BOLR3JaKiCrdBjfpCnK8DUyzKw&sensor=false' );
->>>>>>> origin/master
+
 
 		wp_register_script( 'infobox', plugins_url( '/realia/libraries/jquery-google-map/infobox.js' ), array( 'jquery' ), false, true );
 		wp_enqueue_script( 'infobox' );
